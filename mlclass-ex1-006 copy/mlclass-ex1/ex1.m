@@ -57,6 +57,8 @@ theta = zeros(2, 1); % initialize fitting parameters
 % Some gradient descent settings
 %iterations = 500;
 
+
+
 iterations = 1500;
 alpha = 0.01;
 
@@ -68,7 +70,7 @@ theta = gradientDescent(X, y, theta, alpha, iterations);
 
 % print theta to screen
 fprintf('Theta found by gradient descent: ');
-fprintf('%f %f \n', theta(1), theta(2));
+%fprintf('%f %f \n', theta(1), theta(2));
 
 % Plot the linear fit
 hold on; % keep previous plot visible
